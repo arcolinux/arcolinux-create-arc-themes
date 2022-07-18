@@ -15,32 +15,33 @@ destination="/home/erik/ARCO/ARCOLINUX-ARC"
 theme_count=0
 
 # what themes are we going to create
-# arrayname=(Tangerine
-# Rusty-orange
-# Red-orange
-# Light-blue-grey
-# Azure-dodger-blue
-# Azul
-# Light-salmon
-# Carnation
-# Warm-pink
-# Bright-lilal
-# Light-lime-green
-# Fern
-# Medium-blue
-# Soft-blue
-# Arcolinux-blue
-# Archlinux-blue
-# Sky-blue
-# Carolina-blue
-# Slate-grey
-# Pale-grey
-# Light-blue-surfn
-# Nice-blue)
-
-arrayname=(
+arrayname=(Tangerine
+Rusty-orange
+Red-orange
 Light-blue-grey
-)
+Azure-dodger-blue
+Azul
+Light-salmon
+Carnation
+Warm-pink
+Bright-lilac
+Bright-light-lime-green
+Fern
+Medium-blue
+Soft-blue
+Arcolinux-blue
+Archlinux-blue
+Sky-blue
+Carolina-blue
+Slate-grey
+Pale-grey
+Light-blue-surfn
+Nice-blue)
+
+#if in trouble
+# arrayname=(
+# Bright-light-lime-green
+# )
 
 # or just a few
 # arrayname=(Nice-blue Pale-grey)
@@ -81,9 +82,9 @@ do
         choice="Azure"
         newcolour1="10ADFF"
         ;;
-    Dodger-blue)
+    Azure-dodger-blue)
         # #2A8DFF
-        choice="Dodger-blue"
+        choice="Azure-dodger-blue"
         newcolour1="2A8DFF"
         ;;
     Azul)
@@ -106,14 +107,14 @@ do
         choice="Warm-pink"
         newcolour1="FD3E84"
         ;;
-    Bright-lilal)
+    Bright-lilac)
         # #CD58FF
         choice="Bright-lilac"
         newcolour1="CD58FF"
         ;;
-    Light-lime-green)
+    Bright-light-lime-green)
         # #B5F652
-        choice="Light-lime-green"
+        choice="Bright-light-lime-green"
         newcolour1="B5F652"
         ;;
     Fern)
