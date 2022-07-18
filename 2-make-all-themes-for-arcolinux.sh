@@ -10,7 +10,8 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-
+source="/home/erik/.themes"
+destination="/home/erik/ARCO/ARCOLINUX-ARC"
 theme_count=0
 
 # what themes are we going to create
@@ -38,11 +39,8 @@ Smoke
 Tacao
 Tory)
 
-# or just a few
-# arrayname=(Casablanca Crimson)
-
 for m in "${arrayname[@]}"
-  do
+do
 
     echo "Deleting old files and downloading the latest arc-theme from github"
     [ -d arc-theme ] && rm -rf arc-theme
@@ -299,5 +297,12 @@ for m in "${arrayname[@]}"
   echo "End Creation of theme nr : " $theme_count
   echo "End Creation of theme name : " $choice
   tput sgr0
+
+	echo "Moving themes"
+  lower=$(echo $choice | tr '[A-Z]' '[a-z]')
+  echo $lower
+  rm -r $destination/arcolinux-arc-$lower/usr/share/themes/*
+  mv -v $source/* $destination/arcolinux-arc-$lower/usr/share/themes/
+
 
 done;
