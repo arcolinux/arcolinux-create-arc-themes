@@ -15,28 +15,32 @@ destination="/home/erik/ARCO/ARCOLINUX-ARC"
 theme_count=0
 
 # what themes are we going to create
-arrayname=(Tangerine
-Rusty-orange
-Red-orange
+# arrayname=(Tangerine
+# Rusty-orange
+# Red-orange
+# Light-blue-grey
+# Azure-dodger-blue
+# Azul
+# Light-salmon
+# Carnation
+# Warm-pink
+# Bright-lilal
+# Light-lime-green
+# Fern
+# Medium-blue
+# Soft-blue
+# Arcolinux-blue
+# Archlinux-blue
+# Sky-blue
+# Carolina-blue
+# Slate-grey
+# Pale-grey
+# Light-blue-surfn
+# Nice-blue)
+
+arrayname=(
 Light-blue-grey
-Azure-dodger-blue
-Azul
-Light-salmon
-Carnation
-Warm-pink
-Bright-lilal
-Light-lime-green
-Fern
-Medium-blue
-Soft-blue
-Arcolinux-blue
-Archlinux-blue
-Sky-blue
-Carolina-blue
-Slate-grey
-Pale-grey
-Light-blue-surfn
-Nice-blue)
+)
 
 # or just a few
 # arrayname=(Nice-blue Pale-grey)
@@ -69,7 +73,7 @@ do
         ;;
     Light-blue-grey)
         # #B8A8BC
-        choice="Light-blue-gray"
+        choice="Light-blue-grey"
         newcolour1="B8A8BC"
         ;;
     Azure)
