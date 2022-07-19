@@ -30,7 +30,7 @@ do
     case "${m}" in
 
     Awesome)
-        # #7684a8
+        # #6ba4e7
         choice="Awesome"
         newcolour1="6ba4e7"
         ;;
