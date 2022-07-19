@@ -15,7 +15,8 @@ destination="/home/erik/ARCO/ARCOLINUX-ARC"
 theme_count=0
 
 # what themes are we going to create
-arrayname=(Blue-sky Dawn)
+#arrayname=(Blue-sky Dawn)
+arrayname=(Vampire)
 
 for m in "${arrayname[@]}"
 do
@@ -37,6 +38,11 @@ do
         # #566282
         choice="Dawn"
         newcolour1="566282"
+        ;;
+    Vampire)
+        # #555a69
+        choice="Vampire"
+        newcolour1="555a69"
         ;;
     esac
 

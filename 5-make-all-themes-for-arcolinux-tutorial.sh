@@ -14,15 +14,12 @@
 theme_count=0
 
 # what themes are we going to create
-arrayname=(Blue-sky
-Vampire
-)
-
-# or just a few
-# arrayname=(Nice-blue Pale-grey)
+# choose a great name for your theme
+# space between the next theme name
+arrayname=(Awesome)
 
 for m in "${arrayname[@]}"
-  do
+do
 
     echo "Deleting old files and downloading the latest arc-theme from github"
     [ -d arc-theme ] && rm -rf arc-theme
@@ -32,15 +29,10 @@ for m in "${arrayname[@]}"
 
     case "${m}" in
 
-    Blue-sky)
+    Awesome)
         # #7684a8
-        choice="Blue-sky"
-        newcolour1="7684a8"
-        ;;
-    Vampire)
-        # #555a69
-        choice="Vampire"
-        newcolour1="555a69"
+        choice="Awesome"
+        newcolour1="6ba4e7"
         ;;
     esac
 
