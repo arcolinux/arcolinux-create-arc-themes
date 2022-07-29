@@ -16,7 +16,7 @@ theme_count=0
 
 # what themes are we going to create
 #arrayname=(Blue-sky Dawn)
-arrayname=(Vampire)
+arrayname=(Dracul)
 
 for m in "${arrayname[@]}"
 do
@@ -30,19 +30,20 @@ do
     case "${m}" in
 
     Blue-sky)
-        # #7684a8
         choice="Blue-sky"
         newcolour1="7684a8"
         ;;
     Dawn)
-        # #566282
         choice="Dawn"
         newcolour1="566282"
         ;;
     Vampire)
-        # #555a69
         choice="Vampire"
         newcolour1="555a69"
+        ;;
+    Dracul)
+        choice="Dracul"
+        newcolour1="7e82a0"
         ;;
     esac
 
