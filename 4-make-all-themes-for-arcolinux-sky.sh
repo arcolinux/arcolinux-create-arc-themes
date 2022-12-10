@@ -1,5 +1,14 @@
 #!/bin/bash
 #
+#tput setaf 0 = black 
+#tput setaf 1 = red 
+#tput setaf 2 = green
+#tput setaf 3 = yellow 
+#tput setaf 4 = dark blue 
+#tput setaf 5 = purple
+#tput setaf 6 = cyan 
+#tput setaf 7 = gray 
+#tput setaf 8 = light blue
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -15,8 +24,7 @@ destination="/home/erik/ARCO/ARCOLINUX-ARC"
 theme_count=0
 
 # what themes are we going to create
-#arrayname=(Blue-sky Dawn)
-arrayname=(Dracul)
+arrayname=(Blue-sky Dawn Vampire Dracul)
 
 for m in "${arrayname[@]}"
 do
@@ -49,7 +57,7 @@ do
 
   theme_count=$[theme_count+1]
 
-  tput setaf 1
+  tput setaf 3
   echo "Start Creation of theme nr : " $theme_count
   echo "Start Creation of theme name : " $choice
   echo "Using this color : " $newcolour1
@@ -196,7 +204,7 @@ do
   echo "#####################################################################"
   echo "#####################################################################"
 
-  tput setaf 1
+  tput setaf 3
   echo "End Creation of theme nr : " $theme_count
   echo "End Creation of theme name : " $choice
   tput sgr0
