@@ -345,3 +345,6 @@ do
 
 
 done;
+
+
+echo " check if fern and Bright-light-lime-green are not double in ferns folder"
